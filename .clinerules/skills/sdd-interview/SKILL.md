@@ -1,6 +1,6 @@
 ---
 name: sdd-interview
-description: Fase 1 dello spec driven development: intervista lo studente con domande a piccoli gruppi per raccogliere i requisiti e salva specs/interview.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-interview.
+description: Fase 1 dello spec driven development. Intervista lo studente con domande a piccoli gruppi per raccogliere i requisiti e salva specs/interview.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-interview.
 ---
 
 # /sdd-interview: intervista per raccogliere i requisiti

@@ -1,6 +1,6 @@
 ---
 name: sdd-plan
-description: Fase 3 dello spec driven development: da specs/spec.md e dalla costituzione produce il piano tecnico specs/plan.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-plan.
+description: Fase 3 dello spec driven development. Da specs/spec.md e dalla costituzione produce il piano tecnico specs/plan.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-plan.
 ---
 
 # /sdd-plan: dalla specifica al piano tecnico

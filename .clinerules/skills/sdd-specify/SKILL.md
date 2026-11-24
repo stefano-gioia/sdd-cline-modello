@@ -1,6 +1,6 @@
 ---
 name: sdd-specify
-description: Fase 2 dello spec driven development: trasforma specs/interview.md in specs/spec.md con user story, requisiti EARS numerati e casi limite. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-specify.
+description: Fase 2 dello spec driven development. Trasforma specs/interview.md in specs/spec.md con user story, requisiti EARS numerati e casi limite. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-specify.
 ---
 
 # /sdd-specify: dalla intervista alla specifica

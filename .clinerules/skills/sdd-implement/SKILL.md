@@ -1,6 +1,6 @@
 ---
 name: sdd-implement
-description: Fase 5 dello spec driven development: implementa un solo compito di specs/tasks.md, lo verifica e lo spunta. Usare solo quando lo studente la richiama esplicitamente con /sdd-implement.
+description: Fase 5 dello spec driven development. Implementa un solo compito di specs/tasks.md, lo verifica e lo spunta. Usare solo quando lo studente la richiama esplicitamente con /sdd-implement.
 ---
 
 # /sdd-implement: realizzare un compito

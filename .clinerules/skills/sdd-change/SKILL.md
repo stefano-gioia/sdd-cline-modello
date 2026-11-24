@@ -1,6 +1,6 @@
 ---
 name: sdd-change
-description: Gestisce una modifica o evolutiva nello spec driven development: aggiorna prima specs/spec.md, poi plan.md e tasks.md, senza scrivere codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-change.
+description: Gestisce una modifica o evolutiva nello spec driven development. Aggiorna prima specs/spec.md, poi plan.md e tasks.md, senza scrivere codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-change.
 ---
 
 # /sdd-change: gestire una modifica (evolutiva)

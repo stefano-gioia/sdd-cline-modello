@@ -1,6 +1,6 @@
 ---
 name: sdd-tasks
-description: Fase 4 dello spec driven development: divide specs/plan.md in compiti piccoli e verificabili in specs/tasks.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-tasks.
+description: Fase 4 dello spec driven development. Divide specs/plan.md in compiti piccoli e verificabili in specs/tasks.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-tasks.
 ---
 
 # /sdd-tasks: dal piano ai compiti
