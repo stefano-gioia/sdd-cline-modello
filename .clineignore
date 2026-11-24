@@ -1,0 +1,7 @@
+# Cartelle che Cline non deve leggere: sono grandi e non servono per ragionare sul progetto
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+package-lock.json
+**/package-lock.json
