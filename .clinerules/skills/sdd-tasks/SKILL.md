@@ -1,4 +1,9 @@
-# /tasks.md: dal piano ai compiti
+---
+name: sdd-tasks
+description: Fase 4 dello spec driven development: divide specs/plan.md in compiti piccoli e verificabili in specs/tasks.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-tasks.
+---
+
+# /sdd-tasks: dal piano ai compiti
 
 ## Scopo
 Dividere il piano in compiti piccoli, da fare uno alla volta, ciascuno verificabile.
@@ -9,7 +14,7 @@ Dividere il piano in compiti piccoli, da fare uno alla volta, ciascuno verificab
 ## Cosa leggi
 1. `.clinerules/costituzione.md`
 2. `specs/spec.md`
-3. `specs/plan.md` (obbligatorio: se manca, fermati e suggerisci `/plan.md`)
+3. `specs/plan.md` (obbligatorio: se manca, fermati e suggerisci `/sdd-plan`)
 4. `specs/tasks.md`, se esiste già: in quel caso aggiungi i compiti nuovi senza toccare quelli esistenti
 
 ## Passi
@@ -21,7 +26,7 @@ Dividere il piano in compiti piccoli, da fare uno alla volta, ciascuno verificab
 6. Il modo di verifica è concreto: un comando da lanciare (build o test) e/o cosa controllare nel browser, passo per passo.
 7. Salva `specs/tasks.md`.
 8. Chiedi allo studente di rileggerlo e approvarlo. Applica le correzioni richieste.
-9. Quando approvato, concludi: "Prossimo passo: `/implement.md`, in un nuovo task con `/newtask`. Si fa un compito per volta."
+9. Quando approvato, concludi: "Prossimo passo: `/sdd-implement`, in un nuovo task con `/newtask`. Si fa un compito per volta."
 
 ## Regole
 - Le regole di prenotazione (o in generale la logica) hanno un compito dedicato che include i test unitari.

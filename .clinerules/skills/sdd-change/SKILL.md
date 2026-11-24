@@ -1,7 +1,12 @@
-# /change.md: gestire una modifica (evolutiva)
+---
+name: sdd-change
+description: Gestisce una modifica o evolutiva nello spec driven development: aggiorna prima specs/spec.md, poi plan.md e tasks.md, senza scrivere codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-change.
+---
+
+# /sdd-change: gestire una modifica (evolutiva)
 
 ## Scopo
-Applicare una richiesta di modifica partendo dalla specifica: prima si aggiorna la spec, poi il piano, poi i compiti. Il codice si scrive dopo, con `/implement.md`.
+Applicare una richiesta di modifica partendo dalla specifica: prima si aggiorna la spec, poi il piano, poi i compiti. Il codice si scrive dopo, con `/sdd-implement`.
 
 ## Modalità
 **Plan** per l'analisi (passi 1-4), **Act** per aggiornare i file (passi 5-8).
@@ -28,10 +33,10 @@ Applicare una richiesta di modifica partendo dalla specifica: prima si aggiorna 
 7. Aggiorna `specs/tasks.md`:
    - aggiungi compiti nuovi con il prossimo numero T libero, in una sezione "Modifica: <titolo>"
    - se un compito già fatto va rifatto, non riaprirlo: crea un compito nuovo che lo cita
-8. Mostra il riepilogo dei file cambiati e concludi: "Prossimo passo: `/implement.md` in un nuovo task con `/newtask`."
+8. Mostra il riepilogo dei file cambiati e concludi: "Prossimo passo: `/sdd-implement` in un nuovo task con `/newtask`."
 
 ## Regole
-- Non scrivere codice dell'applicazione in questo workflow.
+- Non scrivere codice dell'applicazione in questa skill.
 - Non rinumerare requisiti o compiti esistenti.
 - Una modifica alla volta. Se lo studente chiede più cose insieme, proponi di separarle.
 

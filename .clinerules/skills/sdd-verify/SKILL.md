@@ -1,4 +1,9 @@
-# /verify.md: controllare che il codice rispetti la specifica
+---
+name: sdd-verify
+description: Controlla, senza modificare nulla, che il codice rispetti ogni requisito di specs/spec.md e mostra una tabella requisito, stato, evidenza. Usare solo quando lo studente la richiama esplicitamente con /sdd-verify.
+---
+
+# /sdd-verify: controllare che il codice rispetti la specifica
 
 ## Scopo
 Confrontare ogni requisito della specifica con il codice e dire se è soddisfatto, con un'evidenza. NON si modifica nulla.
@@ -24,7 +29,7 @@ Confrontare ogni requisito della specifica con il codice e dire se è soddisfatt
    - compiti segnati come fatti ma con requisiti non OK
    - codice che fa cose non previste dalla specifica
 6. Mostra la tabella e il riepilogo.
-7. Concludi suggerendo cosa fare: `/implement.md` per completare un compito, oppure `/change.md` se è la specifica a dover cambiare.
+7. Concludi suggerendo cosa fare: `/sdd-implement` per completare un compito, oppure `/sdd-change` se è la specifica a dover cambiare.
 
 ## Regole
 - Non correggere nulla, nemmeno un errore evidente: lo segnali e basta.

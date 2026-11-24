@@ -1,4 +1,9 @@
-# /plan.md: dalla specifica al piano tecnico
+---
+name: sdd-plan
+description: Fase 3 dello spec driven development: da specs/spec.md e dalla costituzione produce il piano tecnico specs/plan.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-plan.
+---
+
+# /sdd-plan: dalla specifica al piano tecnico
 
 ## Scopo
 Decidere COME costruire ciò che la specifica chiede, rispettando la costituzione e le regole Angular. Ancora nessun codice.
@@ -9,7 +14,7 @@ Decidere COME costruire ciò che la specifica chiede, rispettando la costituzion
 ## Cosa leggi
 1. `.clinerules/costituzione.md`
 2. `.clinerules/angular.md`
-3. `specs/spec.md` (obbligatorio: se manca, fermati e suggerisci `/specify.md`)
+3. `specs/spec.md` (obbligatorio: se manca, fermati e suggerisci `/sdd-specify`)
 4. Se esiste, la struttura attuale di `frontend/src/app/` (solo per sapere cosa c'è già)
 
 ## Passi
@@ -21,12 +26,12 @@ Decidere COME costruire ciò che la specifica chiede, rispettando la costituzion
 6. Scrivi la tabella di tracciabilità: ogni requisito R della specifica deve comparire almeno una volta.
 7. Salva `specs/plan.md`.
 8. Chiedi allo studente di rileggerlo e approvarlo. Applica le correzioni richieste.
-9. Quando approvato, concludi: "Prossimo passo: `/tasks.md`, in un nuovo task con `/newtask`."
+9. Quando approvato, concludi: "Prossimo passo: `/sdd-tasks`, in un nuovo task con `/newtask`."
 
 ## Regole
 - Il piano deve restare semplice: è un MVP. Se una scelta aggiunge complessità, motivala o toglila.
 - Niente librerie esterne non previste dalla costituzione.
-- Se ti accorgi che la specifica è incompleta o contraddittoria, non correggerla tu: segnalalo e suggerisci `/change.md`.
+- Se ti accorgi che la specifica è incompleta o contraddittoria, non correggerla tu: segnalalo e suggerisci `/sdd-change`.
 
 ## File prodotto: `specs/plan.md`
 ```markdown

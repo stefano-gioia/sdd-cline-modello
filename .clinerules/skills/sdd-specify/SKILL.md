@@ -1,4 +1,9 @@
-# /specify.md: dalla intervista alla specifica
+---
+name: sdd-specify
+description: Fase 2 dello spec driven development: trasforma specs/interview.md in specs/spec.md con user story, requisiti EARS numerati e casi limite. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-specify.
+---
+
+# /sdd-specify: dalla intervista alla specifica
 
 ## Scopo
 Trasformare l'intervista in una specifica chiara: user story, requisiti numerati scritti con EARS, casi limite. Descrive COSA fa l'app, non COME è fatta.
@@ -8,7 +13,7 @@ Trasformare l'intervista in una specifica chiara: user story, requisiti numerati
 
 ## Cosa leggi
 1. `.clinerules/costituzione.md`
-2. `specs/interview.md` (obbligatorio: se manca, fermati e suggerisci `/interview.md`)
+2. `specs/interview.md` (obbligatorio: se manca, fermati e suggerisci `/sdd-interview`)
 
 ## Passi
 1. Scrivi le user story: poche, piccole e verificabili. Formato: "Come <chi>, voglio <cosa>, per <perché>". Numerale US1, US2...
@@ -25,12 +30,12 @@ Trasformare l'intervista in una specifica chiara: user story, requisiti numerati
 7. Salva `specs/spec.md`.
 8. Mostra un riepilogo: numero di storie, numero di requisiti, elenco dei `[DA CHIARIRE]`.
 9. Chiedi allo studente di rileggere il file e di approvarlo o indicare correzioni. Applica le correzioni e richiedi approvazione.
-10. Quando approvato, concludi: "Prossimo passo: `/plan.md`, in un nuovo task con `/newtask`."
+10. Quando approvato, concludi: "Prossimo passo: `/sdd-plan`, in un nuovo task con `/newtask`."
 
 ## Regole
 - Niente nomi di componenti, servizi, librerie o file: quelli vanno nel piano.
 - Un requisito dice una sola cosa. Se contiene "e" tra due comportamenti diversi, dividilo.
-- Usa le parole dello studente per i concetti del dominio (aula, laboratorio, fascia...).
+- Usa le parole dello studente per i concetti del dominio (aula, corso, fascia...).
 
 ## File prodotto: `specs/spec.md`
 ```markdown

@@ -1,4 +1,9 @@
-# /interview.md: intervista per raccogliere i requisiti
+---
+name: sdd-interview
+description: Fase 1 dello spec driven development: intervista lo studente con domande a piccoli gruppi per raccogliere i requisiti e salva specs/interview.md. Nessun codice. Usare solo quando lo studente la richiama esplicitamente con /sdd-interview.
+---
+
+# /sdd-interview: intervista per raccogliere i requisiti
 
 ## Scopo
 Capire cosa deve fare l'applicazione facendo domande allo studente. In questa fase NON si scrive codice e NON si scrive la specifica.
@@ -17,12 +22,13 @@ Usa la modalità **Plan** per tutta l'intervista. Alla fine chiederai di passare
 4. Non suggerire tu le risposte e non dare per scontate le regole: chiedi come funziona davvero.
 5. Quando i temi sono coperti, mostra un riepilogo con la struttura del file prodotto (vedi sotto) e chiedi: "Il riepilogo è corretto? Vuoi aggiungere o cambiare qualcosa?"
 6. Quando lo studente approva, chiedigli di passare in modalità Act e salva `specs/interview.md`.
-7. Concludi dicendo: "Prossimo passo: `/specify.md`. Ti consiglio di aprire un nuovo task con `/newtask`."
+7. Concludi dicendo: "Prossimo passo: `/sdd-specify`. Ti consiglio di aprire un nuovo task con `/newtask`."
 
 ## Traccia dei temi
 Adatta la traccia al progetto descritto nella costituzione. Per un sistema di prenotazione i temi sono:
 - Chi usa l'app e chi può prenotare
-- Quali risorse si prenotano (aule, laboratori, aule speciali) e quali informazioni hanno (nome, capienza, attrezzature)
+- Quali risorse si prenotano (aule, aule speciali) e quali informazioni hanno (nome, capienza, attrezzature)
+- Per cosa si prenota (un corso, una materia, un evento) e quali dati servono
 - Fasce orarie fisse o orari liberi
 - Durata minima e massima di una prenotazione
 - Giorni e orari di apertura della scuola, giorni di chiusura

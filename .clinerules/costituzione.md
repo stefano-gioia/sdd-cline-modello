@@ -13,7 +13,7 @@ La prima parte è generale e si riusa in qualsiasi progetto. La seconda parte de
   - `specs/spec.md`: user story, requisiti numerati (R1, R2...), casi limite
   - `specs/plan.md`: come si costruisce (componenti, servizi, modello dati)
   - `specs/tasks.md`: compiti piccoli numerati (T1, T2...)
-- La specifica è la fonte di verità. Se il codice e la specifica non sono d'accordo, si corregge prima la specifica (con `/change.md`) e poi il codice.
+- La specifica è la fonte di verità. Se il codice e la specifica non sono d'accordo, si corregge prima la specifica (con `/sdd-change`) e poi il codice.
 - Non inventare requisiti. Se un'informazione manca, scrivi `[DA CHIARIRE]` e chiedi.
 - Ogni passaggio finisce con un punto di fermo: mostri il risultato e aspetti l'approvazione esplicita dello studente prima di andare avanti.
 - Un compito per volta. Non anticipare il lavoro dei compiti successivi.
@@ -34,16 +34,16 @@ La prima parte è generale e si riusa in qualsiasi progetto. La seconda parte de
   - avviare in locale: `cd frontend && npx ng serve` (resta attivo: non aspettare che finisca)
 - Non lanciare comandi git che modificano la storia (reset, rebase, push --force). Puoi proporre un commit, ma lo esegue lo studente.
 
-## Parte 2. Questo progetto: prenotazione aule e laboratori
+## Parte 2. Questo progetto: prenotazione aule
 
 ### Cosa stiamo costruendo
-Una web app per prenotare aule e laboratori della scuola. Questa versione è un MVP (minimum viable product): la versione più piccola che si può già usare davvero.
+Una web app per prenotare le aule della scuola. Questa versione è un MVP (minimum viable product): la versione più piccola che si può già usare davvero.
 
 ### Vincoli dell'MVP
 - Solo frontend, Angular 22, nella cartella `frontend/`.
 - Nessun login. Chi prenota scrive il proprio nome in un campo di testo.
 - I dati restano nel browser, in `localStorage`. Nessun backend, nessuna chiamata HTTP.
-- L'elenco delle aule è un dato iniziale scritto nel codice (seed) e caricato al primo avvio.
+- L'elenco iniziale delle aule (e degli altri dati di base emersi nella specifica) sta in un file di configurazione nel codice e si carica al primo avvio.
 
 ### Regola sui dati (importante per il futuro backend)
 - Solo un servizio dedicato alla persistenza legge e scrive `localStorage`. Nessun componente e nessun altro servizio usa `localStorage` direttamente.
